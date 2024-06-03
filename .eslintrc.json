@@ -1,0 +1,13 @@
+{
+    "env": {
+        "browser": true   // 运行环境是浏览器
+    }, 
+    "extends": [
+        "airbnb"   // 用airbnb的扩展
+    ],
+    "rules": {
+        "indent": ["error", 2],  // 不为 2，触发error，也可定义为warning
+        "react/jsx-indent": ["error", 2],
+        "react/prefer-stateless-function": "off"   // 规则中无状态需写成function，关闭此规则
+    }
+}
