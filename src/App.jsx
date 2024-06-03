@@ -6,7 +6,7 @@ class App extends Component {
         return (
             <div className='box'>
                 Hello, React
-                <span>jack</span>
+                <span>jack 1</span>
             </div>
         );
     }
